@@ -14,24 +14,40 @@ https://www.figma.com/design/O8fbdPu9gTO4BjODvYKyMP/Paymily-Design-DP5?node-id=0
 
 ## Quality arguments
 
-Below are key arguments that demonstrate why our interface is exceptional:
+Our interface stands out as a high-quality user experience, defined by its dynamic logic, user-friendly design, and responsiveness. Below are key arguments that demonstrate why our interface is exceptional:
 
-#### Safety -  Risk management through budget allocation by category 
+#### 1. Dynamic and Adaptive Logic: 
    
-Functions for safety are usually inconvenient for users. It directly prevents the user from doing what he or she wants to do with an error message. This experience of being stopped is not pleasant and has a negative impact on the user experience.
+We created a sophisticated logic system, which dynamically responds to user inputs. This system doesn't just execute pre-determined pathways; it adapts based on the user's interactions. For each section, we meticulously set local variables and display orders, ensuring a smooth, logical progression that feels intuitive to the user. For instance, we have a local variable for approver and candidate of approvers, which dynamically changes its value based on the user's input. We also created a variable that stores the current status of a request, allowing for a natural change of the notification page and badge. This adaptive logic ensures that the interface remains responsive and relevant to each user's unique journey.
 
-Our services allow minors (individuals with limited ability to take responsibility) to freely consume. So we received feedback that we needed to pay more attention to safety, and we thought deeply about it. Category-based risk management is the result of our thinking.
+![image](https://github.com/jiwoong123/hciprojects/blob/main/img/image5.png?raw=true)
 
-Our service allows users to allocate their budget by category. This is to limit minors from using their budget for things they shouldn't. The reason we think this feature is cool is because it makes users feel less limited, even though they are actually limited. Our service doesn't say, "Don't spend your money on that." We just say, “We’ve run out of budget for that category.”
+![image](https://github.com/jiwoong123/hciprojects/blob/main/img/image4.png?raw=true)
 
-#### Efficiency - Minimized unnecessary communication processes
+#### 2. Modular Component Design:
 
-Users often remarked on the simplicity and intuitiveness of our interface. The common feedback was, “Is that all?”—a testament to the interface’s ease of use. The traditional method of requesting payment from parents through messages, phone calls, etc. is inconvenient. Our video clearly shows the inconvenience of traditional methods. If a child wants to ask their parents to order food for delivery to their home, they must send the store information, menu information, and other details. Parents must also check and reflect all of the information to complete the order. With our service, you can consume immediately without any inconvenient communication process. This simplicity empowers users, reducing the cognitive load and making the technology accessible to a broader audience.
+We utilized a wide range of UI components, each carefully chosen and implemented to ensure easy updates and modifications. This modularity means that our interface is not only tailored for current requirements but is also ready for future enhancements without extensive overhauls. We sorted our components and icons within designated frames so that they could be easily found and revised. Components are organized cleanly, making revisions straightforward and less error-prone for developers. This foresight in design supports sustainability and adaptability, key markers of a high-quality interface. The modular approach also facilitates collaboration among team members, as each component can be developed and tested independently before integration into the larger system.
 
-#### Learnability - Learnable interface through active use of icons
-We wanted our interface to be learnable for users. We thought that if our interface was similar to existing services, users would be familiar with it and it would be easy to learn. Therefore, our interface was created by benchmarking existing pay service interfaces, which helped with leanability.
 
-But we couldn't and didn't copy everything. What we were pursuing was clearly different from existing services, and as the functions were different, there were areas where our creativity was needed. We needed a way to increase learnability when creating an unfamiliar interface that was different from existing pay services. We actively used icons. Appropriate use of icons helps users guess what each component does. A representative example is the consumption management screen by category. In the unfamiliar function of viewing consumption by category, users were able to gauge the meaning of each category by looking at the icons.
+
+![image](https://github.com/jiwoong123/hciprojects/blob/main/img/image3.png?raw=true)
+
+#### 3. Simplicity and Intuitiveness:
+Users often remarked on the simplicity and intuitiveness of our interface. The common feedback was, "Is that all?"—a testament to the interface's ease of use. Tasks that traditionally take multiple steps without our interface could be completed in just a few clicks with ours. As our task 1 shows, asking for approval with detailed information about the transaction took only four clicks to complete. This simplicity empowers users, reducing the cognitive load and making the technology accessible to a broader audience. By focusing on essential functions and streamlining the user journey, we ensured that even those with minimal technical skills could navigate our interface effortlessly.
+
+
+
+![image](https://github.com/jiwoong123/hciprojects/blob/main/img/image2.png?raw=true)
+
+### 4. Detailed and Responsive Feedback:
+
+We have received significant positive feedback about the detailed and responsive nature of our interface. Every action a user takes is met with immediate and clear feedback. For example, numerical data and progress bars are not only accurately calculated but are displayed in a manner that is meaningful and easily digestible for users. This level of detail ensures that users are never in doubt about the impact of their actions, enhancing trust and satisfaction. By providing real-time feedback, we help users feel more in control and confident in their interactions with the system.
+
+
+![image](https://github.com/jiwoong123/hciprojects/blob/main/img/image1.png?raw=true)
+
+In summary, our interface excels because it is user-centric, adaptable, and detail-oriented, making it not just functional but a pleasure to use. Its design anticipates future needs, ensuring longevity and continued relevance in an evolving tech landscape. This combination of features makes our interface truly great, setting a benchmark for what effective UI design should look like. By focusing on dynamic logic, modularity, simplicity, and responsive feedback, we have created an interface that stands out in terms of quality and user satisfaction.
+
 
 ## Iteration
 
@@ -79,5 +95,46 @@ As a second lesson, I learned that it is important to distinguish between what t
 I thought I would be left with some unexpected insight after the whole journey was over, but that wasn't the case. The words I learned throughout the class, “We are not users,” ultimately stayed in my mind. I kept hearing those words over and over again as problems that I didn't anticipate continued to arise.
 
 ## Individual Reflection - Sejun Jung
+I played a key role in developing our prototype by contributing significantly to the logic, logo, and overall design structure. My responsibilities encompassed creating a user-friendly flow, designing an impactful logo, and deciding on the visual and structural layout of the interface. I organized the component structure and maintained the Figma environment to ensure easy access for team members, facilitating a smooth and efficient design process.
+One of my primary focuses was on ensuring that our prototype was user-friendly. This involved designing intuitive navigation, clear and consistent visual elements, and ensuring that the overall flow of the application made sense from a user's perspective. I spent considerable time studying different settings and functions of Figma and applied these techniques to our project. By creating wireframes and interactive prototypes, I was able to iterate based on feedback from both the team and potential users.
+Designing the logo and elemental figures was another crucial aspect of my role. I aimed to create a logo that was not only visually appealing but also conveyed the essence of our product. I used various plugins such as iconify, unsplash, material symbols to offer basic pictures and symbols that could be universally used in the project.
+Deciding on the visual and structural layout of the interface required a holistic approach. I had to consider how each element would interact with others, ensuring consistency and coherence throughout the application. This involved creating a design system that included typography, color palettes, button styles, and other UI components. By maintaining a cohesive design system, we were able to ensure a consistent user experience across different parts of the application.
+To facilitate collaboration and ensure that our design process was efficient, I organized the structure of the components in Figma. This involved setting up a clear hierarchy, naming conventions, and organizing layers and assets in a way that made it easy for team members to find and use them. By tidying up the Figma environment, I ensured that everyone could work more effectively and that our design files remained organized and manageable.
+Communication was a strong suit for our team, helping us stay connected and informed throughout the project. However, we initially struggled with role definition, which led to decision-making inefficiencies. Without clear roles, it was challenging to make quick decisions, and this sometimes resulted in conflicts or duplicated efforts. Recognizing this issue, we took steps to define specific roles for each team member. By assigning clear responsibilities, we improved our efficiency and reduced conflict, ensuring a smoother workflow.
+This experience taught me the importance of clearly defined roles in effective teamwork. When everyone knows their responsibilities and areas of expertise, it becomes easier to collaborate and make decisions. This not only improves efficiency but also fosters a more harmonious working environment.
+Additionally, I learned the critical importance of accurately defining the problem before designing solutions. We spent time conducting user interviews to understand the needs and pain points of our target audience. These interviews provided valuable insights that directly influenced our design decisions. By adopting a user-centered approach, we were able to create a prototype that truly addressed the needs of our users.
+User feedback was invaluable throughout the design process. It helped us identify areas for improvement and validate our design choices. We conducted usability tests and gathered feedback on various iterations of our prototype. This iterative process allowed us to refine our design and ensure that the final product was both functional and user-friendly.
+In conclusion, my contributions to the logic, logo, and overall design structure of our prototype were crucial to the project's success. Through effective communication, role definition, and a user-centered approach, we were able to create a prototype that met the needs of our users and demonstrated the importance of teamwork and clear problem definition in design.
+
+
 ## Individual Reflection - Jiwoong Jang
+I laid out the overall framework of the interface. Before creating a full-fledged prototype, I suggested the types of interfaces needed (payment window, permission window, payment completion window, main page, etc.). After that, I took charge of the design of the main page and completed it. In addition, I worked hard with team member Sejun to implement most of the functions. I created many components and variables and adjusted them so that they could be changed according to the situation. As a result, I was able to create alarm functions, changes in receipts, and changes in history.
+I also created auto layouts and components for interfaces created by other team members. As team members divided up roles to create interfaces, there were often cases where there were multiple components with the same content or the formats did not match. I took the initiative to solve this, and unified the UI for history, back button, etc. In addition, during this process, I added them to places where auto layout was not processed, such as the family page and payment history.
+In addition, I continuously accessed figma and made minor interface adjustments, such as the text interface in limit exceeding situations, adjusting the recognition size of each button, shading clickable buttons, and emphasizing or disemphasizing the text on each page.
+
+
+Our team overall went smoothly. Each team member diligently performed their assigned roles and found and handled what they could do. In particular, the abilities required for team projects were distributed to each group member. The best part, I think, was the sharing of opinions within the team. All team members attended all meetings, shared opinions, and reached a single conclusion. However, the most difficult part of this process was scheduling meetings. Since we emphasized communication with all team members, we had to find a time when all four of us could work, which was difficult. I think this is because we tried too hard to gather the opinions of all team members. Therefore, in future team projects, we need to divide up roles a little more or reduce the number of meetings to manage time more efficiently.
+
+
+I learned about the overall process of design. Each team member had an appropriate role and was able to experience creating one big result. Another thing I realized during the design process was the importance of listening to others, especially conducting user tests. I thought that great designers would be able to create great interfaces by thinking from the user’s perspective without having to conduct user tests. However, I found out that this is extremely difficult. I learned that users often deviate from designers’ assumptions. And sometimes, even among the designers have conflicts of opinion. Therefore, I learned that conducting many tests and listening to others’ voices can create better interfaces.
+
 ## Individual Reflection - Yeongseo Cho
+I contributed and got charge of design and functions of family page. I also came up with design ideas with details, such as how to deliver time period of budgets or how to make buttons look unified. Plus, it was my job to make request details page. Here, I made several components to easily make the pages and make them look unified. After some user test and peer review, I found some critical problems of our interface and summarized how to fix them.
+
+Since we couldn't find enough time for everyone to attend, we needed to proceed with the project as efficiently as possible. Through such efforts, I recognized the importance of dividing role. Due to lack of time, all of us could not focus on one job together. So we divided our roles and thus we could finish our project successfully. 
+ However, one thing that is more important was not to lose focus on whole flow. Focusing only on the divided role would make the project irrelevant to each other. To prevent such situations, having time to talk each other’s progress and being interested in teammates’ work was helpful.
+
+One thing that our team was exceptional was brainstorming. From the first brainstorm to decide our target user and POV, we had a lot of potential ideas.  Moreover, such abundant great thinkings also worked on making user-friendly interface. And I think that such good ideas could come from active communication and strong driving force of ours. Thanks to our teammates, we could find various reasonable approaches in limited time. 
+
+
+In the sense of learning user-centered design, I realized that there is a big difference between the developer's perspective and the user's perspective. Since our target user was minor, I thought that I could think like users since I was once a minor. But user tests taught me the difference. Especially, I was impressed by the fact that a feature that was added without much thought turned out to be a huge advantage for one user during user test. Thanks to that user, we could deep into such advantage and improve our functionalities of prototype. 
+
+Also, I could find the difference of our ideal target user and real user in target field. For example, I thought that since minor is our target, any minors could be our user. However, we could find a minor user without cellphone, which was not good environment to perform a prototype. Thus, I felt that having proper and good quality of user test is very important. 
+
+Lastly, leaning systematic information and solution examples of usabilities was very helpful to find out solutions of user discomfort. Such content made me to think about type of usability first, which leads to more fast and effective solutions.
+
+
+## Video link
+https://youtu.be/GcGZyYSXSgY
+
+Use YouTube subtitles for narration subtitles
